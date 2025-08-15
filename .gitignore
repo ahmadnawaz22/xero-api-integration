@@ -205,3 +205,46 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+logs/
+*.log
+data/
+*.csv
+*.xlsx
+!data/sample.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
