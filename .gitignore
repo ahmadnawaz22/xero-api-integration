@@ -248,3 +248,6 @@ data/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Token storage
+tokens.json
